@@ -1,6 +1,6 @@
 -
   title  : Select Basic
-  fields : 
+  fields :
     id:
       label  : ID / Name
       type   : input
@@ -13,10 +13,14 @@
       label  : Options
       type   : textarea-split
       value  : ["Option one", "Option two"]
+    values:
+      label  : Values
+      type   : textarea-split
+      value  : ["1", "2"]
     inputsize:
-      label: Input Size
-      type: select
-      value:
+      label  : Input Size
+      type   : select
+      value  :
         -
           value    : input-mini
           label    : Mini
@@ -25,7 +29,7 @@
           value    : input-small
           label    : Small
           selected : false
-        - 
+        -
           value    : input-medium
           label    : Medium
           selected : false
@@ -43,7 +47,7 @@
           selected : false
 -
   title  : Select Multiple
-  fields : 
+  fields :
     id:
       label  : ID / Name
       type   : input
@@ -56,10 +60,14 @@
       label  : Options
       type   : textarea-split
       value  : ["Option one", "Option two"]
+    values:
+      label  : Values
+      type   : textarea-split
+      value  : ["1", "2"]
     inputsize:
-      label: Input Size
-      type: select
-      value:
+      label  : Input Size
+      type   : select
+      value  :
         -
           value    : input-mini
           label    : Mini
@@ -68,7 +76,7 @@
           value    : input-small
           label    : Small
           selected : false
-        - 
+        -
           value    : input-medium
           label    : Medium
           selected : false
