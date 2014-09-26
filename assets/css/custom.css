@@ -61,7 +61,7 @@ textarea {
   overflow: hidden;
 }
 
-#render{
+#render, #jsonrender{
   min-height: 500px;
   font-family: monospace;
 }
